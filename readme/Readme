@@ -1,0 +1,46 @@
+README - Simulação de Jogo de Tabuleiro
+
+Descrição
+
+Este projeto é uma simulação de um jogo de tabuleiro inspirado em Banco Imobiliário, implementado em
+Java. O tabuleiro é representado por uma lista ligada circular, garantindo a movimentação contínua dos
+jogadores pelas casas do tabuleiro. O sistema também utiliza pilha para o gerenciamento das cartas de sorte
+e revés.
+O objetivo do jogo é gerenciar propriedades, dinheiro e eventos, passando pelas casas do tabuleiro e
+interagindo com regras típicas de jogos de tabuleiro de compra e venda de imóveis.
+
+Funcionalidades
+
+- Representação do tabuleiro como lista ligada circular.
+- Movimento dos jogadores pelas casas do tabuleiro.
+- Gerenciamento de jogadores, incluindo cadastro, propriedades, dinheiro e status.
+- Sistema de cartas de sorte e revés utilizando pilha.
+- Implementação da funcionalidade de hipoteca para propriedades.
+- Menu interativo para configuração e controle da partida.
+- Controle das regras do jogo, incluindo compra, venda, aluguel, hipoteca e pagamento de impostos.
+
+Tecnologias
+
+- Java
+- IDE recomendada: IntelliJ IDEA (ou qualquer outra que suporte Java)
+- Estrutura de dados: lista ligada circular e pilha (implementadas manualmente)
+
+Como rodar o projeto
+
+1. Clone o repositório:
+ git clone <https://github.com/NaraOsio/As-estrutura-de-dados/blob/main/readme/Readme>
+
+README - Simulação de Jogo de Tabuleiro
+2. Abra o projeto em sua IDE favorita (recomenda-se IntelliJ IDEA).
+3. Compile e execute a classe principal Main.java ou a classe que contenha o método main.
+4. Siga as instruções do menu para configurar e iniciar a partida.
+
+Estrutura do Projeto
+- model - Contém as classes do modelo, incluindo jogadores, imóveis, cartas e configuração da partida.
+- controller - Contém a lógica do jogo, regras e manipulação das estruturas de dados.
+- view (opcional) - Classes que tratam a interação com o usuário via terminal.
+- main - Classe principal para iniciar o jogo.
+
+Contato
+Nome: Nara Osio
+Email: nara.rede.ulbra.br
